@@ -1,5 +1,15 @@
 User management system using Symfony
 -
+User-Group system using the Symfony framework.
+
+The schema of processes:
+
+![uml1.jpg](meta%2Fuml1.jpg)
+![uml2.jpg](meta%2Fuml2.jpg)
+
+The schema of database
+
+![db-schema.jpg](meta%2Fdb-schema.jpg)
 
 # Installation
 
