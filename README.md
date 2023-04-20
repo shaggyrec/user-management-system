@@ -1,4 +1,4 @@
-User management system using Symfony
+User management system using Symfony [![BuildStatus](https://app.travis-ci.com/shaggyrec/user-management-system.svg?branch=main)](https://app.travis-ci.com/github/shaggyrec/user-management-system)
 -
 User-Group system using the Symfony framework.
 
