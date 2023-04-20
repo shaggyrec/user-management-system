@@ -36,6 +36,18 @@ User 1 admin
 Token brE94QXUom22FDuPj_qwHwuyNXbtlsHscOMlDUYSP0s
 ```
 
+## Of course, you could do it without docker
+
+You have to create a database locally and `DATABASE_URL` in the `.env` file.
+Then make all commands above on the host machine:  
+
+```bash
+composer install
+php bin/console doctrine:migrations:migrate
+php bin/console app:create-admin
+symfony serve --no-tls --port=8000 --allow-http
+```
+
 #### Great! You a ready to add/delete everything
 
 # API
