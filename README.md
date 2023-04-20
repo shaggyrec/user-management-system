@@ -161,6 +161,7 @@ Response:
 
 # TODO
 
+- Add more tests
 - Catch all errors
 - Implement oAuth with access and refresh tokens
 - Add logging

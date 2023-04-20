@@ -10,3 +10,14 @@
 ###< symfony/framework-bundle ###
 .DS_Store
 ._.DS_Store
+.idea/phpunit.xml
+
+###> symfony/phpunit-bridge ###
+.phpunit.result.cache
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###

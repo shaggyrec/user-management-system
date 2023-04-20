@@ -41,6 +41,16 @@ class User implements UserInterface
     }
 
     /**
+     * @param int $id
+     * @return $this
+     */
+    public function setId(int $id): self
+    {
+        $this->id = $id;
+        return $this;
+    }
+
+    /**
      * @return string|null
      */
     public function getName(): ?string
